@@ -1,0 +1,35 @@
+
+
+
+:root {
+        --ouro:            #c9a84c;
+        --ouro-claro:      #e8c96a;
+        --ouro-escuro:     #7a5c1e;
+        --sangue:          #8b1a1a;
+        --sangue-claro:    #b52a2a;
+        --preto:           #000000;
+        --preto-profundo:  #080608;
+        --preto-superficie:#0e0b0e;
+        --cinza-pedra:     #2a2528;
+        --pergaminho:      #c8b89a;
+        --pergaminho-mudo: #6a5a48;
+        --fonte-titulo:    'Cinzel Decorative', serif;
+        --fonte-subtitulo: 'Cinzel', serif;
+        --fonte-corpo:     'IM Fell English', serif;
+        --raio-borda:      2px;
+        --raio-borda-lg:   4px;
+    }
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+
+body {
+    background-color: var(--preto);
+    color: var(--pergaminho);
+    font-family: var(--fonte-corpo);
+    font-size: 16px;
+    line-height: 1.8;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+}
